@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".classroom.activities.SplashActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="583dp"
+        android:layout_margin="10dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/splash"></com.airbnb.lottie.LottieAnimationView>
+
+    <ProgressBar
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_gravity="center"
+        android:progressTint="@color/app_color"
+        android:progress="0"
+        android:max="100"
+        android:indeterminate="true"
+        android:layout_marginTop="10dp"></ProgressBar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_drawable"
+        android:text="Get Started"
+        android:id="@+id/getStarted"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>

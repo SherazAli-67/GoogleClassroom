@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".classroom.activities.VerifyOTPActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/splash"
+        app:lottie_autoPlay="true"
+        android:layout_margin="20dp"></com.airbnb.lottie.LottieAnimationView>
+
+    <com.mukesh.OtpView
+        android:id="@+id/otpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:OtpItemCount="6"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:focusable="true"
+        app:OtpViewType="line"
+        android:background="@color/grey"></com.mukesh.OtpView>
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_drawable"
+        android:text="Continue"
+        android:id="@+id/verifyOTP"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"></TextView>
+</LinearLayout>

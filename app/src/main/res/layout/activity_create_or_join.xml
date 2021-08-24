@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".classroom.activities.CreateOrJoinActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/createOrJOin_no_internetLayout"
+            android:visibility="gone">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="20dp"
+                android:id="@+id/no_internet"
+                app:lottie_rawRes="@raw/no_internet"></com.airbnb.lottie.LottieAnimationView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Connect To Internet First"
+                android:gravity="center"
+                android:textColor="@color/app_color"
+                android:textSize="22dp"
+                android:id="@+id/connectToInternet"
+                android:layout_below="@id/no_internet"></TextView>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/connectToInternet"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="159dp"
+                android:background="@color/white"
+                android:src="@drawable/refresh"
+                android:id="@+id/reload"
+                android:tint="@color/app_color"></ImageButton>
+        </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="Online\nLearning"
+        android:textColor="@color/app_color"
+        android:textSize="24dp"></TextView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="494dp"
+        android:layout_margin="10dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/study"></com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_drawable"
+        android:text="Create Class"
+        android:fontFamily="@font/roboto_bold"
+        android:id="@+id/createClass"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/joinClass"
+        android:layout_width="178dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:background="@drawable/button_drawable"
+        android:text="Join Class"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"></TextView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "240606574944",
+    "project_id": "classroom-18a14",
+    "storage_bucket": "classroom-18a14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240606574944:android:4d1f67f9aa8f8315174605",
+        "android_client_info": {
+          "package_name": "com.sheraz.app.googleclassroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240606574944-5a1cn6un1pesk28481tn0c1fandf5b4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTQ7iCnHUOmHEz3BC94icGM2cultoSH3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240606574944-5a1cn6un1pesk28481tn0c1fandf5b4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

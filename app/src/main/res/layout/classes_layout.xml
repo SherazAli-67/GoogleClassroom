@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/classes_drawable"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:padding="4dp"
+            android:id="@+id/classLayout_img"
+            android:src="@drawable/ic_launcher_background"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="4dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mam Mariam Javed"
+                android:textColor="@color/app_color"
+                android:id="@+id/classLayout_teacherName"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginLeft="10dp"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:id="@+id/classLayout_className"
+                android:text="Java"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
